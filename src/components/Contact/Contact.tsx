@@ -9,7 +9,8 @@ export default function Contact() {
     <>
       <div className="fixed bottom-0 z-50 flex w-full">
         <a
-          // href={env.NEXT_PUBLIC_KAKAO_OPENCAHT_URL}
+          href="https://itcha.co.kr/reserve/365"
+          target="_blank"
           className="text-md btn btn-primary flex-1 rounded-none text-white sm:text-lg"
         >
           <FaCheck className="h-4 w-4 text-white sm:h-7 sm:w-7" />

@@ -21,14 +21,19 @@ export default function HeaderMenuDropDown({ onScrollTo }: Props) {
         className="menu dropdown-content menu-sm right-0 z-20 mt-3 w-52 rounded-box bg-base-200 p-2 shadow"
       >
         <li className="text-xs sm:text-sm">
-          <a className="cursor-pointer" onClick={() => onScrollTo('search')}>
+          <a
+            className="cursor-pointer"
+            href="https://itcha.co.kr/reserve/365"
+            target="_blank"
+          >
             예약하기
           </a>
         </li>
         <li className="text-xs sm:text-sm">
           <a
             className="cursor-pointer"
-            // onClick={() => onScrollTo('list')}
+            href="https://itcha.co.kr/reserve/365/list"
+            target="_blank"
           >
             예약확인
           </a>

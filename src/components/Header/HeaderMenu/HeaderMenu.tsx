@@ -9,20 +9,22 @@ export default function HeaderMenu({ onScrollTo }: Props) {
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal p-0">
         <li>
-          <div
-            onClick={() => onScrollTo('search')}
+          <a
+            href="https://itcha.co.kr/reserve/365"
+            target="_blank"
             className="btn btn-ghost text-[16px] font-bold"
           >
             예약하기
-          </div>
+          </a>
         </li>
         <li>
-          <div
-            // onClick={() => onScrollTo('list')}
+          <a
+            href="https://itcha.co.kr/reserve/365/list"
+            target="_blank"
             className="btn btn-ghost text-[16px] font-bold"
           >
             예약확인
-          </div>
+          </a>
         </li>
         <li>
           <div

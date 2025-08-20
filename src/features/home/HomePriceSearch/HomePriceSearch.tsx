@@ -169,12 +169,13 @@ export default function HomePriceSearch() {
                     원
                   </div>
                 </div>
-                <div
-                  onClick={() => alert('현재는 전화 문의만 가능합니다.')}
+                <a
+                  target="_blank"
+                  href="https://itcha.co.kr/reserve/365"
                   className="flex h-[60px] cursor-pointer items-center justify-center rounded-bl-lg rounded-br-lg bg-primary text-lg font-extrabold text-white sm:h-auto sm:w-[200px] sm:rounded-bl-none"
                 >
                   예약하기
-                </div>
+                </a>
               </div>
             </div>
             <div className="flex flex-col gap-5 sm:flex-row">
