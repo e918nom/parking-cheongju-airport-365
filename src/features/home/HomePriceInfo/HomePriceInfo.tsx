@@ -45,7 +45,7 @@ function HomePriceInfo() {
                   1일 / 10,000원
                 </div>
                 <div className="flex items-center justify-center p-2 text-center text-red-500 sm:p-5">
-                  1일 / 5,000원
+                  1일 / 7,000원
                 </div>
               </div>
               <div className="grid grid-cols-3 bg-white text-base font-semibold sm:text-lg">
@@ -72,7 +72,7 @@ function HomePriceInfo() {
               >
                 <ul className="ml-5 list-disc">
                   <li>당일예약가능</li>
-                  <li>1일 10,000원 → 1일 5,000원 (50% 할인)</li>
+                  <li>1일 10,000원 → 1일 7,000원 (30% 할인)</li>
                   <li className="font-semibold text-primary">
                     주차대행료 10,000원은 별도 청구합니다. (이벤트에 따라 변동
                     가능)
@@ -84,7 +84,7 @@ function HomePriceInfo() {
                     차량입고 후 유실물, 일정취소 등으로 퇴차 요청 시 퇴차비
                     발생합니다.
                     <br />
-                    (입고중 단순퇴차 : 5,000원 / 입고 후 취소 및 퇴차 :
+                    (입고중 단순퇴차 : 7,000원 / 입고 후 취소 및 퇴차 :
                     10,000원)
                   </li>
                 </ul>

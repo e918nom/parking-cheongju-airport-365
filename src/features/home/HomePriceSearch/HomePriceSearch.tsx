@@ -27,7 +27,7 @@ export default function HomePriceSearch() {
         )
       : 0;
 
-  const totalPrice = days * 5000;
+  const totalPrice = days * 7000;
 
   return (
     <Element name="search">
@@ -197,7 +197,7 @@ export default function HomePriceSearch() {
                     차량 입고 후 유실물, 일정 취소 등으로 회차 요청시 회차비가
                     발생합니다.
                     <br />
-                    [입고 중 단순회차(유실물 등) : 5,000원 / 입고 취소 회차 :
+                    [입고 중 단순회차(유실물 등) : 7,000원 / 입고 취소 회차 :
                     10,000원]
                   </li>
                   <li>장기 주차 이용 시 별도 문의 바랍니다. [1844-1477]</li>
@@ -219,7 +219,7 @@ export default function HomePriceSearch() {
                   차량 입고 후 유실물, 일정 취소 등으로 회차 요청시 회차비가
                   발생합니다.
                   <br />
-                  [입고 중 단순회차(유실물 등) : 5,000원 / 입고 취소 회차 :
+                  [입고 중 단순회차(유실물 등) : 7,000원 / 입고 취소 회차 :
                   10,000원]
                 </li>
                 <li>장기 주차 이용 시 별도 문의 바랍니다. [1844-1477]</li>
