@@ -1,4 +1,5 @@
 import { type Viewport } from 'next';
+import Script from 'next/script';
 
 import { fonts } from '@/app/fonts';
 
@@ -85,6 +86,29 @@ export default async function RootLayout({ children }: Props) {
     >
       <body className={`${fonts.sen.className} ${fonts.pretendard.className}`}>
         {children}
+        {/* Smartlog */}
+        <Script
+          id="smartlog-config"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `var hpt_info={'_account':'UHPT-78530', '_server': 'a78'};`,
+          }}
+        />
+        <Script
+          src="//cdn.smlog.co.kr/core/smart.js"
+          strategy="afterInteractive"
+          charSet="utf-8"
+        />
+        <noscript>
+          <img
+            src="//a78.smlog.co.kr/smart_bda.php?_account=78530"
+            style={{
+              display: 'none',
+              width: 0,
+              height: 0,
+            }}
+          />
+        </noscript>
       </body>
     </html>
   );
