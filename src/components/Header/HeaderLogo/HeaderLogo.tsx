@@ -8,7 +8,7 @@ export default function HeaderLogo() {
         <PiAirplaneInFlightFill className="h-[40px] w-[40px]" />
       </div>
       <div className="flex flex-col items-start">
-        <div className="text-xl font-extrabold">청주공항 365 안심 주차대행</div>
+        <div className="text-xl font-extrabold">청주공항주차대행|청주공항</div>
         <div className="text-gray-500">365일 24시간 연중무휴</div>
       </div>
       {/* <div className="text-xl font-extrabold sm:text-2xl">
