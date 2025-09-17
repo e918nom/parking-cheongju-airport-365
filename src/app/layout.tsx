@@ -7,7 +7,7 @@ import '@/styles/globals.css';
 
 export async function generateMetadata() {
   return {
-    title: '청주공항 365 안심 주차대행',
+    title: '청주공항주차대행 | 365일 공항 주차대행',
     description:
       '청주공항 합리적인 주차요금, 고객님의 여행을 365주차대행이 책임지겠습니다.',
     icons: [{ rel: 'icon', url: '/favicon.svg' }],
