@@ -2,6 +2,11 @@ import { type Config } from 'tailwindcss';
 
 export default {
   content: ['./src/**/*.{ts,tsx}'],
+    safelist: [
+    'hidden',
+    '-z-10',
+    'animate-bounce', 
+  ],
   theme: {
     extend: {
       fontFamily: {
