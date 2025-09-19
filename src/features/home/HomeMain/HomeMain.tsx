@@ -24,7 +24,7 @@ export default function HomeMain() {
           <div className="text-center text-xl font-medium !leading-[1.6] text-white [text-shadow:_0_2px_4px_rgb(0_0_0_/_0.6)] sm:text-3xl">
             청주공항 <b className="text-[#00FFDE]">합리적인 주차요금</b>
             <br />
-            고객님의 여행을 365주차대행이 책임지겠습니다.
+            고객님의 여행을 365주차대행이 책임지겠습니다..
           </div>
         </div>
         <div className="absolute bottom-[30px] z-30 flex h-[40px] w-[40px] animate-bounce items-center justify-center">
